@@ -1,0 +1,42 @@
+/* ========================
+
+      Universal Styling
+
+=========================*/
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Cormorant Garamond', serif;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 64pt;
+}
+
+p,
+a {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* ========================
+
+      Header Styling
+
+=========================*/
+
+header nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: right;
+  padding: 20px 0;
+}
