@@ -82,7 +82,7 @@ footer {
 }
 
 footer p {
-  display: inline;
+  display: inline-block;
 }
 
 footer a {
@@ -91,6 +91,7 @@ footer a {
   color: white;
   font-size: 16px;
   text-shadow: 1px 1px 3px darkgray;
+  margin-left: 200px;
 }
 
 /* ========================
