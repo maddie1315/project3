@@ -20,7 +20,7 @@ h4 {
 }
 
 h1 {
-  font-size: 64pt;
+  font-size: 60pt;
 }
 
 h2 {
@@ -41,7 +41,7 @@ a {
 }
 
 p {
-  font-size: 14pt;
+  font-size: 12pt;
 }
 
 /* ========================
@@ -52,22 +52,24 @@ p {
 
 header {
   background: white;
+  padding: 10px;
 }
 
 header nav ul li {
-  display: inline;
+  display: inline-block;
 }
 
 header nav a {
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 16pt;
   color: black;
+  font-size: 14pt;
+  margin: 10px 20px;
 }
 
 header img {
   float: left;
-  margin: 10px;
+  margin: 5px;
 }
 
 /* ========================
@@ -82,16 +84,18 @@ footer {
 }
 
 footer p {
-  display: inline-block;
+  display: inline;
 }
 
 footer a {
   text-decoration: none;
   text-transform: uppercase;
-  color: white;
   font-size: 16px;
-  text-shadow: 1px 1px 3px darkgray;
-  margin-left: 200px;
+  color: black;
+}
+
+footer img {
+  padding: 2px;
 }
 
 /* ========================
