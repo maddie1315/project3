@@ -148,19 +148,15 @@ footer img {
   text-align: center;
 }
 
-.apparel-design {
-  max-width: 375px;
-  text-align: center;
-}
-
-.merchandising {
-  max-width: 375px;
-  text-align: center;
-}
-
+.apparel-design,
+.merchandising,
 .forecasting {
   max-width: 375px;
-  text-align: center;
+  display: inline-block;
+}
+
+.slick-photos {
+  max-width: 300px;
 }
 
 /* ========================
