@@ -24,7 +24,7 @@
 
     </header>
 
-    <img src="images/about-me-photo.jpg" alt="About me photo" title="profile photo" width="300" class="about-me-image"/>
+    <img src="images/about-me-photo.jpg" alt="About me photo" title="profile photo" width="250" class="about-me-image"/>
 
     <main class="about">
       <h2>Madeline Curnan</h2>
@@ -33,10 +33,32 @@
     </main>
 
     <!-- Form Formatting -->
-    <form class="say-hello" action="index.html" method="post">
+    <div class="container">
       <h3>Say Hello:</h3>
+      <form class="say-hello" action="index.html" method="post">
+        <div class="name input-selection">
+          <label for="name" class="label-input">Name:</label>
+          <input type="text" name="name" />
+        </div>
 
-    </form>
+        <div class="email input-selection">
+          <label for="email" class="label-input">Email:</label>
+          <input type="email" name="email" />
+        </div>
+
+        <div class="message input-selection">
+          <label for="message" class="label-input">Message:</label>
+          <textarea name="message" rows="8" cols="80"></textarea>
+        </div>
+
+        <div class="submit">
+          <input type="submit" value="Send" />
+        </div>
+
+      </form>
+      
+    </div>
+
 
     <footer>
       <img src="images/ig-icon.png" alt="Instagram logo" title="Instagram" height="50" />

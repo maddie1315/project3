@@ -115,13 +115,17 @@ footer img {
 
 =========================*/
 
-.about-me-image {
-  margin-left: 125px;
+.about {
+  margin-top: 200px;
+  max-width: 1200px;
 }
 
-.about {
-  margin-left: 450px;
+.about-me-image {
+  float: left;
+  margin: 100px 25px 0 50px;
 }
+
+
 
 /* ========================
 
@@ -131,6 +135,20 @@ footer img {
 
 .say-hello {
   margin-left: 175px;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  padding: 20px;
+}
+
+label-input {
+  display: block;
+}
+
+.say-hello input,
+.say-hello textarea {
+  background: #d2d9d2;
+  border: 2px black;
+  padding: 5px;
 }
 
 /* ========================
@@ -172,4 +190,12 @@ footer img {
 
 .projects h3 {
   text-align: center;
+}
+
+.projects-pd {
+  max-width: 45%;
+}
+
+.projects-di {
+  max-width: 45%;
 }
