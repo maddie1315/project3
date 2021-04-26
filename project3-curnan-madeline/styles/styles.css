@@ -57,6 +57,7 @@ header {
 
 header nav ul li {
   display: inline-block;
+  float: right;
 }
 
 header nav a {
@@ -80,22 +81,25 @@ header img {
 
 footer {
   background: #D2D9D2;
-  padding: 5px 10px;
+  height: 50px;
+  padding-left: 10px;
 }
 
 footer p {
   display: inline;
+  padding: 5px;
 }
 
 footer a {
   text-decoration: none;
   text-transform: uppercase;
   font-size: 16px;
-  color: black;
+  color: white;
+  text-shadow: 1px 1px 3px darkgray;
 }
 
 footer img {
-  padding: 2px;
+  padding: 10px 2px;
 }
 
 /* ========================
@@ -109,6 +113,10 @@ footer img {
   margin: 200px 0 100px 75px;
 }
 
+.home p {
+  line-height: 1.6em;
+}
+
 /* ========================
 
       About Page Styling
@@ -116,16 +124,23 @@ footer img {
 =========================*/
 
 .about {
-  margin-top: 200px;
-  max-width: 1200px;
+  margin-top: 130px;
+  max-width: 1100px;
+}
+
+.about h2 {
+  margin-bottom: 10px;
+}
+
+.about p {
+  line-height: 1.6em;
+  margin-bottom: 10px;
 }
 
 .about-me-image {
   float: left;
-  margin: 100px 25px 0 50px;
+  margin: 150px 25px 0 50px;
 }
-
-
 
 /* ========================
 
@@ -134,21 +149,21 @@ footer img {
 =========================*/
 
 .say-hello {
-  margin-left: 175px;
-  font-family: 'Open Sans', sans-serif;
-  text-transform: uppercase;
-  padding: 20px;
+  margin: 20px;
 }
 
-label-input {
-  display: block;
+.label-input {
+  float: left;
+  text-align: right;
 }
 
-.say-hello input,
-.say-hello textarea {
-  background: #d2d9d2;
-  border: 2px black;
-  padding: 5px;
+input {
+  border: 1px solid black;
+  line-height: 1.5em;
+}
+
+textarea {
+  border: 1px solid black;
 }
 
 /* ========================
