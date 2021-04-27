@@ -97,8 +97,6 @@ footer a {
   text-shadow: 1px 1px 3px darkgray;
 }
 
-
-
 /* ========================
 
       Home Page Styling
@@ -185,6 +183,7 @@ textarea {
 
 .portfolio {
   max-width: 1200px;
+  padding-top: 100px;
   margin: 0 auto;
 }
 
@@ -199,8 +198,54 @@ textarea {
   display: inline-block;
 }
 
+/* ========================
+
+      Slick Styling
+
+=========================*/
+
 .slick-photos {
-  max-width: 300px;
+  max-width: 315px;
+  margin-left: 10px;
+}
+
+.slick-photos img {
+  margin: 0 auto;
+}
+
+.slick-prev {
+  left: -10px;
+}
+
+.slick-next {
+  right: -10px;
+}
+
+.slick-prev,
+.sick-next {
+  color: rgb(210, 217, 210);
+}
+
+.slick-prev:hover,
+.slick-prev:focus,
+.slick-next:hover,
+.slick-next:focus {
+  color: rgb(173, 188, 185);
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: rgb(210, 217, 210);
+}
+
+.slick-dots li button:before {
+  opacity: 1;
+  color: rgb(210, 217, 210);
+}
+
+.slick-dots li.slick-active button:before{
+  opacity: 1;
+  color: rgb(173, 188, 185);
 }
 
 /* ========================
@@ -210,18 +255,21 @@ textarea {
 =========================*/
 
 .projects {
-  max-width: 1200px;
+  max-width: 1250px;
+  padding-top: 100px;
   margin: 0 auto;
+  background: #333;
 }
 
 .projects h3 {
+  width: 800px;
   text-align: center;
 }
 
-.projects-pd {
-  max-width: 45%;
-}
-
+.projects-pd,
 .projects-di {
-  max-width: 45%;
+  max-width: 49%;
+  display: inline-block;
+  background: gray;
+  margin-left: 5px;
 }
