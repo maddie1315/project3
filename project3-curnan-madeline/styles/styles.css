@@ -183,19 +183,28 @@ textarea {
 
 .portfolio {
   max-width: 1200px;
-  padding-top: 100px;
+  padding-top: 130px;
   margin: 0 auto;
 }
 
 .portfolio h3 {
   text-align: center;
+  padding-bottom: 15px;
 }
 
-.apparel-design,
-.merchandising,
-.forecasting {
+.first,
+.second,
+.third {
   max-width: 375px;
   display: inline-block;
+  vertical-align: baseline;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.portfolio h4 {
+  padding: 5px 0;
 }
 
 /* ========================
@@ -210,7 +219,7 @@ textarea {
 }
 
 .slick-photos img {
-  margin: 0 auto;
+  margin: auto;
 }
 
 .slick-prev {
@@ -256,14 +265,15 @@ textarea {
 
 .projects {
   max-width: 1250px;
-  padding-top: 100px;
+  padding-top: 130px;
   margin: 0 auto;
   background: #333;
 }
 
 .projects h3 {
-  width: 800px;
+  width: 100%;
   text-align: center;
+  padding-bottom: 15px;
 }
 
 .projects-pd,
