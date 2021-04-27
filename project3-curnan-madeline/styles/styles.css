@@ -87,7 +87,6 @@ footer {
 
 footer p {
   display: inline;
-  padding: 5px;
 }
 
 footer a {
@@ -98,9 +97,7 @@ footer a {
   text-shadow: 1px 1px 3px darkgray;
 }
 
-footer img {
-  padding: 10px 2px;
-}
+
 
 /* ========================
 
@@ -149,21 +146,35 @@ footer img {
 =========================*/
 
 .say-hello {
-  margin: 20px;
+  margin: 20px 0 0 155px;
+  width: 690px;
 }
 
 .label-input {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 24px;
+  text-transform: uppercase;
+  width: 200px;
   float: left;
   text-align: right;
+  padding-right: 25px;
 }
 
 input {
   border: 1px solid black;
-  line-height: 1.5em;
+  line-height: 1.8em;
+  margin-top: 3px;
+  margin-bottom: 18px;
 }
 
 textarea {
   border: 1px solid black;
+}
+
+.submit-button {
+  text-align: right;
+  margin: 5px;
+  color: #d2d9d2;
 }
 
 /* ========================
