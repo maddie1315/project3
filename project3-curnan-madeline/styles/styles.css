@@ -68,6 +68,10 @@ header nav a {
   margin: 10px 20px;
 }
 
+header nav a:hover {
+  color: #adbcb9;
+}
+
 header img {
   float: left;
   margin: 5px;
@@ -310,4 +314,23 @@ textarea {
 
 .projects .slick-photos {
   max-width: 300px;
+}
+
+/* ========================
+
+      Lightbox Example Styling
+
+=========================*/
+
+.lightbox-main {
+  padding: 10px;
+  text-align: center;
+}
+
+.lightbox-main p {
+  margin-bottom: 15px;
+}
+
+.lightbox-main img {
+  padding: 5px;
 }
