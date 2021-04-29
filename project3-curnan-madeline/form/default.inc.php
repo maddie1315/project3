@@ -1,5 +1,5 @@
 <style type="text/css">
-  h3 {
+  h1 {
     font-family: 'Cormorant Garamond', serif;
     text-transform: uppercase;
     font-weight: normal;
@@ -8,6 +8,12 @@
   p,
   a {
     font-family: 'Open Sans', sans-serif;
+  }
+
+  header {
+    background: #D2D9D2;
+    width: 100%;
+    text-align: center;
   }
 
   header nav ul li {
@@ -24,7 +30,7 @@
 
   .container {
     max-width: 500px;
-    text-align: center;
+    margin: 0 auto;
   }
 </style>
 
@@ -40,6 +46,6 @@
 </header>
 
 <div class="container">
-  <h3>Sorry, something went wrong</h3>
+  <h1>Sorry, something went wrong</h1>
   <p>Please try again</p>
 </div>

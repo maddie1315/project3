@@ -117,6 +117,7 @@ footer img {
 .home {
   max-width: 900px;
   margin: 200px 0 100px 75px;
+  height: 100%;
 }
 
 .home p {
@@ -178,16 +179,18 @@ input {
   line-height: 1.8em;
   margin-top: 3px;
   margin-bottom: 18px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 textarea {
   border: 1px solid black;
   margin-bottom: 5px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .submit-button {
   text-align: right;
-  margin: 5px;
+  margin: 0 13px;
 }
 
 .submit-button input {
@@ -224,7 +227,7 @@ textarea {
   vertical-align: baseline;
   text-align: center;
   padding: 10px;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
 }
 
 .portfolio h4 {
@@ -294,10 +297,9 @@ textarea {
 =========================*/
 
 .projects {
-  max-width: 1250px;
+  max-width: 100%;
   padding-top: 130px;
   margin: 0 auto;
-  background: #333;
 }
 
 .projects h3 {
@@ -306,16 +308,31 @@ textarea {
   padding-bottom: 15px;
 }
 
+.projects .slick-photos,
+.product-development,
+.digital-illustration {
+  max-width: 23%;
+  display: inline-block;
+}
+
+.product-development,
+.digital-illustration {
+  vertical-align: top;
+  margin-left: 25px;
+}
+
 .projects-pd,
 .projects-di {
-  max-width: 49%;
-  display: inline-block;
-  background: gray;
-  margin-left: 5px;
+  display: inline;
+}
+
+.projects ul li {
+  font-family: 'Open Sans', sans-serif;
+  list-style-position: inside;
 }
 
 .projects .slick-photos {
-  max-width: 300px;
+  margin-bottom: 50px;
 }
 
 /* ========================

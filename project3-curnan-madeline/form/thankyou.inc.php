@@ -1,5 +1,5 @@
 <style type="text/css">
-  h3 {
+  h1 {
     font-family: 'Cormorant Garamond', serif;
     text-transform: uppercase;
     font-weight: normal;
@@ -8,6 +8,12 @@
   p,
   a {
     font-family: 'Open Sans', sans-serif;
+  }
+
+  header {
+    background: #D2D9D2;
+    width: 100%;
+    text-align: center;
   }
 
   header nav ul li {
@@ -24,7 +30,7 @@
 
   .container {
     max-width: 500px;
-    text-align: center;
+    margin: 0 auto;
   }
 </style>
 
@@ -41,6 +47,5 @@
 
 <div class="container">
   <h1>Thank you for your enquiry</h1>
-  <p>Thanks for your interest. we have received your message, and we will be in touch shortly.</p>
-  <p>Form processor provided by <a href="http://www.inventpartners.com">Invent Partners web design York</a>.</p>
+  <p>Thanks for your interest. We have received your message, and we will be in touch shortly.</p>
 </div>

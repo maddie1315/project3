@@ -1,5 +1,5 @@
 <style type="text/css">
-  h3 {
+  h1 {
     font-family: 'Cormorant Garamond', serif;
     text-transform: uppercase;
     font-weight: normal;
@@ -8,6 +8,12 @@
   p,
   a {
     font-family: 'Open Sans', sans-serif;
+  }
+
+  header {
+    background: #D2D9D2;
+    width: 100%;
+    text-align: center;
   }
 
   header nav ul li {
@@ -24,7 +30,7 @@
 
   .container {
     max-width: 500px;
-    text-align: center;
+    margin: 0 auto;
   }
 </style>
 
@@ -40,7 +46,7 @@
 </header>
 
 <div class="container">
-	<h3>Missing fields</h3>
+	<h1>Missing fields</h1>
 	<p>Sorry, you have not completed all of the required fields.</p>
 	<p>Please hit <a href="#" onClick="history.go(-1)">back</a> and complete required fields.</p>
 
