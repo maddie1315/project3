@@ -13,7 +13,9 @@
 h1,
 h2,
 h3,
-h4 {
+h4,
+h5,
+h6 {
   font-family: 'Cormorant Garamond', serif;
   text-transform: uppercase;
   font-weight: normal;
@@ -42,6 +44,10 @@ a {
 
 p {
   font-size: 12pt;
+}
+
+body {
+  height: 100%;
 }
 
 /* ========================
@@ -176,6 +182,7 @@ footer img {
 
 input {
   border: 1px solid black;
+  border-radius: 2px;
   line-height: 1.8em;
   margin-top: 3px;
   margin-bottom: 18px;
@@ -184,17 +191,20 @@ input {
 
 textarea {
   border: 1px solid black;
-  margin-bottom: 5px;
+  border-radius: 2px;
+  margin-bottom: 10px;
   font-family: 'Open Sans', sans-serif;
 }
 
 .submit-button {
-  text-align: right;
-  margin: 5px 13px;
+  width: 100%;
+  text-align: left;
+  margin-left: 225px;
 }
 
 .submit-button input {
   padding: 0 10px;
+  border-radius: 2px;
   font-family: 'Cormorant Garamond', serif;
   text-transform: uppercase;
   font-size: 18px;
