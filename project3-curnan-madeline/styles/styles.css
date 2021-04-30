@@ -150,6 +150,7 @@ footer img {
 .about-me-image {
   float: left;
   margin: 150px 25px 0 50px;
+  z-index: 10;
 }
 
 /* ========================
