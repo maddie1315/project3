@@ -86,8 +86,7 @@ header img {
 footer {
   background: #D2D9D2;
   height: 50px;
-  padding-left: 10px;
-  padding-top: 10px;
+  padding: 10px 0 0 10px;
 }
 
 footer p {
@@ -116,7 +115,7 @@ footer img {
 
 .home {
   max-width: 900px;
-  margin: 200px 0 100px 75px;
+  margin: 200px 0 200px 75px;
   height: 100%;
 }
 
@@ -190,7 +189,7 @@ textarea {
 
 .submit-button {
   text-align: right;
-  margin: 0 13px;
+  margin: 5px 13px;
 }
 
 .submit-button input {
@@ -216,7 +215,7 @@ textarea {
 
 .portfolio h3 {
   text-align: center;
-  margin-bottom: 25px;
+  margin-bottom: 40px;
 }
 
 .first,
@@ -231,7 +230,12 @@ textarea {
 }
 
 .portfolio h4 {
-  padding: 5px 0;
+  padding: 10px 0;
+}
+
+.portfolio p {
+  line-height: 1.5em;
+  margin-bottom: 25px;
 }
 
 .first .slick-photos,
@@ -305,7 +309,16 @@ textarea {
 .projects h3 {
   width: 100%;
   text-align: center;
-  padding-bottom: 15px;
+  margin-bottom: 50px;
+}
+
+.projects p {
+  line-height: 1.5em;
+  padding: 10px 0;
+}
+
+.projects a {
+  color: black;
 }
 
 .projects .slick-photos,
@@ -332,7 +345,7 @@ textarea {
 }
 
 .projects .slick-photos {
-  margin-bottom: 50px;
+  margin-bottom: 75px;
 }
 
 /* ========================
